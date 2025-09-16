@@ -2,6 +2,7 @@
 function longestCommonSubsequence(str1, str2) {
     const m = str1.length;
     const n = str2.length;
+    //This is an addition filed
     const dp = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
     
     for (let i = 1; i <= m; i++) {
@@ -14,6 +15,7 @@ function longestCommonSubsequence(str1, str2) {
         }
     }
     
+    //Get the index of the LCS
     let index = dp[m][n];
     let lcs = Array(index).fill('');
     let i = m, j = n;
