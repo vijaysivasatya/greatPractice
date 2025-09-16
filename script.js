@@ -3,5 +3,5 @@ function addNumbers(a, b) {
     return a + b;
 }
 
-// Example usage:
+// Example Asage:
 console.log(addNumbers(5, 3)); // Output: 8
